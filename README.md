@@ -17,3 +17,19 @@ Before anything else, time series is classified based on [ADI](https://frepple.c
 #### Threshold values
 `ADI: 1.33`, `CV2: 0.49`
 
+## Models
+- MA (Base Model)
+- Exponential Smoothing (Base Model)
+- SMART Willemain
+- ARIMA
+- Cronston
+### Probabilistic Models
+- State Space (Higher Order Markov Model) with ES
+- Logistic Regression with ES
+- AASVM - Adaptive Autoregressive Support Vector Machine
+
+## Error Metric
+- AAD - Average Absolute Deviation
+- RMSE - Root Mean Squared Error
+- MAPE - Mean Absolute Percentage Error
+- MAAPE - Mean Arctangent Absolute Percentage Error
